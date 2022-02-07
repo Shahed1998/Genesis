@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+  #projects,
+  #design {
+    float: left;
+    min-width: 100%;
+  }
+  #projects h1 {
+    width: 100%;
+  }
+  .content {
+    width: 90%;
+    margin: 100px auto;
+  }
+}

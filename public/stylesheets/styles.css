@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #082032;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #082032;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #df2e2e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #df2e2e;
+}
+
+#projects,
+#design {
+  float: left;
+  min-width: 50%;
+}
+
+#projects {
+  max-height: 90vh;
+  overflow-y: scroll;
+}
+
+#projects h1 {
+  text-align: center;
+  position: fixed;
+  width: 50%;
+  padding: 20px;
+  background-color: #efefef;
+  z-index: 2;
+}
+
+.content {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.content a {
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  font-size: 18px;
+  transition: 0.25s all ease-in-out;
+}
+
+.content a:hover {
+  font-size: 24px;
+  color: #df2e2e;
+}
+
+.content a i {
+  margin-right: 5px;
+  color: #df2e2e;
+}
+
+#design {
+  min-height: 90vh;
+}
+
+#design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: #df2e2e;
+  width: 100px;
+  height: 100px;
+}
+
+.third {
+  margin-bottom: 80px;
+}
+
+.first {
+  margin-top: 80px;
+}
+
+#footer {
+  float: left;
+  width: 100%;
+  min-height: 10vh;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.footer-name {
+  color: #df2e2e;
+}
+
+/* Logo design */
+.first {
+  animation: firstColor 10s infinite;
+}
+
+.second {
+  animation: secondColor 10s infinite;
+}
+
+.third {
+  animation: thirdColor 10s infinite;
+}
+
+@keyframes firstColor {
+  0% {
+    background-color: #df2e2e;
+  }
+  50% {
+    background-color: #33425b;
+  }
+  100% {
+    background-color: #df2e2e;
+  }
+}
+
+@keyframes secondColor {
+  0% {
+    background-color: #33425b;
+  }
+  50% {
+    background-color: #df2e2e;
+  }
+  100% {
+    background-color: #33425b;
+  }
+}
+
+@keyframes thirdColor {
+  0% {
+    background-color: #df2e2e;
+  }
+  50% {
+    background-color: #33425b;
+  }
+  100% {
+    background-color: #df2e2e;
+  }
+}
